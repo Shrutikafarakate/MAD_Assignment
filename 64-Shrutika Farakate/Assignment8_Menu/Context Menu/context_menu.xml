@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/copy"
+        android:title="Copy Text"/>
+
+    <item
+        android:id="@+id/increase"
+        android:title="Increase Size"/>
+
+    <item
+        android:id="@+id/decrease"
+        android:title="Decrease Size"/>
+
+    <item
+        android:id="@+id/bgcolor"
+        android:title="Change Background"/>
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"/>
+
+</menu>
