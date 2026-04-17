@@ -1,0 +1,49 @@
+package com.example.grid_explicit_intent;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Project7Activity extends AppCompatActivity {
+
+    Button btnTop, btnCenter, btnBottom, btnLeft, btnRight;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_project7);
+
+        btnTop = findViewById(R.id.btnTop);
+        btnCenter = findViewById(R.id.btnCenter);
+        btnBottom = findViewById(R.id.btnBottom);
+        btnLeft = findViewById(R.id.btnLeft);
+        btnRight = findViewById(R.id.btnRight);
+
+        btnTop.setOnClickListener(v ->
+                Toast.makeText(Project7Activity.this,
+                        "Top Button Clicked",
+                        Toast.LENGTH_SHORT).show());
+
+        btnCenter.setOnClickListener(v ->
+                Toast.makeText(Project7Activity.this,
+                        "Center Button Clicked",
+                        Toast.LENGTH_SHORT).show());
+
+        btnBottom.setOnClickListener(v ->
+                Toast.makeText(Project7Activity.this,
+                        "Bottom Button Clicked",
+                        Toast.LENGTH_SHORT).show());
+
+        btnLeft.setOnClickListener(v ->
+                Toast.makeText(Project7Activity.this,
+                        "Left Button Clicked",
+                        Toast.LENGTH_SHORT).show());
+
+        btnRight.setOnClickListener(v ->
+                Toast.makeText(Project7Activity.this,
+                        "Right Button Clicked",
+                        Toast.LENGTH_SHORT).show());
+    }
+}

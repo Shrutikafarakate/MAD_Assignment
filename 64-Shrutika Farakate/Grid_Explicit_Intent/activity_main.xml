@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="Assignment 1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Assignment 2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="Assignment 3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:text="Assignment 4"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="Assignment 5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:text="Assignment 6"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:text="Assignment 7"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:text="Assignment 8"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:text="Assignment 9"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"/>
+
+    </GridLayout>
+
+</FrameLayout>
